@@ -39,8 +39,8 @@
     color: gray;
   }
   .icon1:hover{
-    color:black;
-    background-color:darkgray;
+    color:white;
+    background-color:black
   }
   .shop{
     height:250px;
