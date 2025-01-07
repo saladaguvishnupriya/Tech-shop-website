@@ -1,0 +1,108 @@
+.container1 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .product {
+    font-size:25px;
+    font-weight: 300;
+  }
+  .nav1 {
+    padding: 10px 0;
+  } 
+  .pro1 {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-end; 
+  }
+  .pro {
+    margin-right: 20px;
+  }
+  .pro2 {
+    margin-right: 20px; 
+    
+  }
+  .link {
+    text-decoration: none;
+    color:black; 
+  }
+  .link1 {
+    text-decoration: none; 
+    color:grey;
+  }
+  .icon1{
+    border:1px solid grey;
+    margin:3px;
+    padding:2px;
+    color: gray;
+  }
+  .btn {
+    display: flex;
+    flex-direction:row; 
+    align-items: center; 
+    justify-content: center;
+  }
+  .btn button {
+    margin: 5px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333; 
+  }
+
+  /* product-css */ 
+  #container{
+    display: flex;
+    justify-content: center;
+    row-gap:10px;
+    margin-top:30px;
+    flex-wrap: wrap;
+    margin:10px; 
+    align-items:center;
+}
+.productcard{
+width: 350px;
+height:450px;
+border: 1px solid black; 
+border-radius: 10px;
+padding: 10px;
+margin-left:30px;
+text-align:center;
+align-items:center;
+} 
+.productcard img{
+width: 100%;
+height: 150px;
+object-fit: contain;
+margin-top:5px;
+} 
+.btn3{
+  background-color:black;
+    color: #fff;
+    border: none;
+    padding:5px;
+    border-radius: 3px;
+    margin-right:3px;
+}
+.price1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  opacity:40%;
+}
+.icon1:hover{
+  color:white;
+  background-color:darkgray;
+}
+.link:hover{
+  color:Black;
+  font-weight:600;
+}
+.link1:hover{
+  color:Black;
+  font-weight:600;
+}
