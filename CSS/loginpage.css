@@ -1,0 +1,96 @@
+.container1 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .product {
+    font-size:25px;
+    font-weight: 300;
+  }
+  .nav1 {
+    padding: 10px 0;
+  } 
+  .pro1 {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-end; 
+  }
+  .pro {
+    margin-right: 20px; 
+  }
+  .pro2 {
+    margin-right: 20px; 
+  }
+  .link {
+    text-decoration: none;
+    color:black; 
+  }
+  .link1 {
+    text-decoration: none; 
+    opacity: 30%;
+    color:black;
+  }
+  .icon1{
+    border:1px solid grey;
+    margin:3px;
+    padding:2px;
+    color: gray;
+  }
+  .btn {
+    display: flex;
+    flex-direction:row; 
+    align-items: center; 
+    justify-content: center;
+  }
+  .btn button {
+    margin: 5px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333; 
+  }
+  .login{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .details2 {
+    display:contents;
+  }
+   .input2{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 300px;
+  }
+  .btn6 {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    margin-top:10px;
+    
+  }
+  .btn-div2{
+    display:block;
+    text-align: center;
+  }
+  .log{
+    color: aqua;
+    text-decoration: underline;
+  }
+  .icon1:hover{
+    color:white;
+    background-color:darkgray;
+  }
+  
