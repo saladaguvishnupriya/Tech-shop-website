@@ -42,3 +42,25 @@
     color:white;
     background-color:darkgray;
   }
+  .shop{
+    height:250px;
+    margin-left:20px;
+    margin-right:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fcfcfc;  
+  }
+  .btn7{
+    border-radius: 5px;
+    border: 2px solid gray;
+    height:50px;
+    width:220px;
+    margin:auto;
+    display:block;
+    text-align: center; 
+  }
+  .cart-head{
+    text-align: center;
+    margin-top:70px;
+  }
