@@ -2,6 +2,7 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
+    align-content:center;
   }
   .product {
     font-size:25px;
@@ -44,21 +45,18 @@
     top:260px;
     font-size: 20px;
   }
-  .btn {
-    display: flex;
-    flex-direction:row; 
-    align-items: center; 
+  .categories
+{
+    display:flex;
     justify-content: center;
-  }
-  .btn button {
-    margin: 5px; 
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #f0f0f0;
-    color: #333; 
-  }
+    margin-top:40px;
+    
+} 
+.category-btn{
+    margin-right:5px;
+    border:none;
+    margin:1px solid gray;
+}
   /* product-css */ 
   #container{
     display: flex;
@@ -116,4 +114,9 @@ margin-top:5px;
 #product-menu1:hover{
   color:Black;
   font-weight:600;
+} 
+.button1:hover{ 
+  background-color: black;
+  color:white;
+
 }

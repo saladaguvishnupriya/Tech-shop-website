@@ -51,16 +51,118 @@
     justify-content: center;
     background-color: #fcfcfc;  
   }
-  .btn7{
+  .cart-section {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+#cart-container {
+    flex: 2;
+    border: 1px solid #ccc; 
+    padding: 20px; 
     border-radius: 5px;
-    border: 2px solid gray;
-    height:50px;
-    width:220px;
+    background-color: #f9f9f9; 
+    
+}
+
+
+#order-summary {
+    flex: 1; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    border-radius: 5px; 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    height:fit-content;
+}
+
+.hidden {
+    display: none;
+}
+
+#cart-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.item-des{
+    font-size:20px;
+    font-weight:600;
+}
+
+#continue-shopping {
+   
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#continue-shopping {
+    background-color:black;
+    color:white;
+    align-items:center;
+}
+.shopbtn{
+    align-self:center;
+}
+
+#checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: #218838;
+}
+#cart-items img {
+    width: 150px; 
+    height: 80px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+}
+.cart-item{ 
+    display:flex;
+    flex-direction: column;
+
+    
+}
+.cart-products{
+    display:flex;
+    justify-content: space-evenly;
+    padding:5px;
+    align-items:center;
+} 
+.price{
+    margin-top:10px;
+    font-weight: 600;
+}
+.button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+.hidden {
+    display: none;
+} 
+.shop-btn{
     margin:auto;
     display:block;
-    text-align: center; 
-  }
-  .cart-head{
     text-align: center;
-    margin-top:70px;
-  }
+}
+.btn-ctn{
+    margin:0;
+    display:block;
+    text-align: center;
+}

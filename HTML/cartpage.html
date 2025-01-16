@@ -27,17 +27,37 @@
             <a href="../HTML/registerpage.html" style="text-decoration: none;">
             <span class="bi-person-plus icon1">Register</span></a>
             <a href="../HTML/cartpage.html" style="text-decoration: none;">
-            <span class="bi bi-cart3 icon1">Cart(0)</span></a>
+            <span class="bi bi-cart3 icon1">Cart(<span id="cart-counter">0</span>)</span></a>
         </div>
     </header>
-    <h2 style="text-align: center;">Cart</h2>
-            <hr style="margin: 20px;"> 
-            <div class="shop">
-             <h1 class="cart-head">Your Cart is Empty</h1>
-             <button class="btn7"><span class="bi bi-arrow-left"></span><a href="../HTML/indexpage.html" style="text-decoration: none; color:gray;">Continoue Shopping</a></button>
+    <div class="cart-section">
+        <!-- Cart Items Section -->
+        <div id="cart-container">
+            
+            <h1 id="cart-heading">Your Cart is Empty</h1> 
+            <div class="btn-ctn">
+            <a href="../Html Code/Home-page.html">
+                <button id="continue-shopping"><span class="bi bi-arrow-left">continoue shopping</span></button>
+            </a>
             </div>
-            <p style="justify-content: center; align-items: center; display: flex;margin-top:20px;">
-                Made with ❤ <span style="margin-right: 10px;">by</span> <span style="text-decoration: underline;">  S.vishnupriya </span>
-            </p>
+            
+           
+            <div id="cart-items"></div>
+        </div>
+    
+        <!-- Order Summary Section -->
+        <div id="order-summary" class="hidden">
+            <h3>Order Summary</h3>
+            <p>Products (<span id="product-count">0</span>): $<span id="total-price">0</span></p>
+            <p>Shipping: $30</p>
+            <h4>Total Amount: $<span id="final-amount">30</span></h4>
+            <button id="checkout-btn">Go to Checkout</button>
+        </div>
+    </div>
+    <footer>
+        <p class="last-para">Made with <span class="bi bi-heart-fill text-danger"></span> by <span class="name">S.Vishnu Priya</span></p>
+
+    </footer> 
+<script src="../JavaScript/fetchApi.js"></script>
 </body>
 </html>

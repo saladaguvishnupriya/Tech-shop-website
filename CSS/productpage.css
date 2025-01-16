@@ -38,21 +38,18 @@
     padding:2px;
     color: gray;
   }
-  .btn {
-    display: flex;
-    flex-direction:row; 
-    align-items: center; 
+  .categories
+{
+    display:flex;
     justify-content: center;
-  }
-  .btn button {
-    margin: 5px; 
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #f0f0f0;
-    color: #333; 
-  }
+    margin-top:40px;
+    
+} 
+.category-btn{
+    margin-right:5px;
+    border:none;
+    margin:1px solid gray;
+}
 
   /* product-css */ 
   #container{

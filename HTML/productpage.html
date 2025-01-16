@@ -27,24 +27,23 @@
             <a href="../HTML/registerpage.html" style="text-decoration: none;">
             <span class="bi-person-plus icon1">Register</span></a>
             <a href="../HTML/cartpage.html" style="text-decoration: none;">
-            <span class="bi bi-cart3 icon1">Cart(0)</span></a>
+            <span class="bi bi-cart3 icon1">Cart(<span id="cartCount">0</span>)</span></a>
         </div>
     </header>
     
     <h2 style="text-align: center; margin-top: 30px;">Latest Products</h2>
             <hr style="margin: 20px;">
-        <div class="btn">
-          <button >All</button><br>  
-          <button>Men's clothing</button>  
-          <button>Women's clothing</button>  
-          <button>Jewelery</button>  
-          <button>Electronics</button>  
-        </div> 
-
+            <nav class="categories">
+                <button class="category-btn" data-category="all" >All</button>
+                <button class="category-btn" data-category="men's clothing">Mens Clothing</button> 
+                <button class="category-btn" data-category="women's clothing">Womens Clothing</button>
+                <button class="category-btn" data-category="jewelery">Jewelery</button>
+                <button class="category-btn" data-category="electronics">Electronics</button>
+            </nav>
         <div id="container"></div> 
         <p style="justify-content: center; align-items: center; display: flex;margin-top:10px;">
             Made with ❤ <span style="margin-right: 10px;">by</span> <span style="text-decoration: underline;">  S.vishnupriya </span>
         </p>
- <script src="../JavaScript/apidata.js"></script>
+ <script src="../JavaScript/fetchApi.js"></script>
 </body>
 </html>
