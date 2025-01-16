@@ -55,17 +55,14 @@
     top:260px;
     font-size: 20px;
   }
-  .categories
-{
+  .categories{
     display:flex;
     justify-content: center;
-    margin-top:40px;
-    
+    margin-top:40px;  
 } 
 .btn{
   border:1px solid grey;
-  margin:3px;
-  
+  margin:3px; 
 }
 #btns:hover{
   background-color: black;
@@ -125,8 +122,8 @@ margin-top:5px;
 }
 .icon1:hover{
   color:white;
-  background-color:darkgray;
-}
+  background-color:black
+};
 #product-menu1{
   color: black;
 }
