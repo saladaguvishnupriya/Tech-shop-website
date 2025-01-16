@@ -1,9 +1,19 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 .container1 {
     display:flex;
     justify-content: space-around;
     align-items: center;
     align-content:center;
-  }
+  } 
+  #nav-items{
+    position:sticky;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    z-index:4;
+    background-color: #ffffff;
+}
   .product {
     font-size:25px;
     font-weight: 300;
@@ -52,6 +62,15 @@
     margin-top:40px;
     
 } 
+.btn{
+  border:1px solid grey;
+  margin:3px;
+  
+}
+#btns:hover{
+  background-color: black;
+  color:white;
+}
 .category-btn{
     margin-right:5px;
     border:none;
