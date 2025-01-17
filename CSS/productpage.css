@@ -3,8 +3,6 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-  }
-  #nav-items{
     position:sticky;
     top:0px;
     bottom:0px;
@@ -12,7 +10,7 @@
     width:100%;
     z-index:4;
     background-color: #ffffff;
-}
+  }
   .product {
     font-size:25px;
     font-weight: 300;
@@ -48,12 +46,10 @@
     padding:2px;
     color: gray;
   }
-  .categories
-{
+  .categories{
     display:flex;
     justify-content: center;
-    margin-top:40px;
-    
+    margin-top:40px;  
 } 
 .category-btn{
     margin-right:5px;
@@ -111,7 +107,7 @@ margin-top:5px;
 }
 .icon1:hover{
   color:white;
-  background-color:darkgray;
+  background-color:black;
 }
 .link:hover{
   color:Black;
