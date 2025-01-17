@@ -29,8 +29,7 @@
   }
   .link1 {
     text-decoration: none; 
-    opacity: 30%;
-    color:black;
+    color:grey;
   }
   .icon1{
     border:1px solid grey;
@@ -78,4 +77,11 @@
     color:white;
     background-color:black;
   }
-  
+  .link:hover{
+    color:Black;
+    font-weight:600;
+  }
+  .link1:hover{
+    color:Black;
+    font-weight:600;
+  }
