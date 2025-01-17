@@ -3,6 +3,13 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
+    position:sticky;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    z-index:4;
+    background-color: #ffffff;
   }
   .product {
     font-size:25px;
